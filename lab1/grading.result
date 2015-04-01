@@ -1,0 +1,416 @@
+Final score: 95.0
+
+Test case #0
+Description: Randomly Generated Test [x3300]=[x7077]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #1
+Description: Corner Case [x3300]=[x8180]
+Weight: 10.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 10.0 = 10.0
+----------------------------------------------------------------
+Test case #2
+Description: Randomly Generated Test [x3300]=[x14d0]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #3
+Description: Randomly Generated Test [x3300]=[xe22c]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #4
+Description: Randomly Generated Test [x3300]=[x0089]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #5
+Description: Randomly Generated Test [x3300]=[x235f]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #6
+Description: Randomly Generated Test [x3300]=[xd52b]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #7
+Description: Randomly Generated Test [x3300]=[x7cc2]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #8
+Description: Randomly Generated Test [x3300]=[x8a2e]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #9
+Description: Randomly Generated Test [x3300]=[xec2c]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #10
+Description: Randomly Generated Test [x3300]=[x3e09]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #11
+Description: Randomly Generated Test [x3300]=[x237c]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #12
+Description: Randomly Generated Test [x3300]=[x2b54]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #13
+Description: Randomly Generated Test [x3300]=[x0109]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #14
+Description: Randomly Generated Test [x3300]=[x3ab8]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #15
+Description: Randomly Generated Test [x3300]=[x9870]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #16
+Description: Randomly Generated Test [x3300]=[x2c18]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #17
+Description: Randomly Generated Test [x3300]=[xb6c7]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #18
+Description: Randomly Generated Test [x3300]=[xbec3]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #19
+Description: Randomly Generated Test [x3300]=[x9260]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #20
+Description: Randomly Generated Test [x3300]=[x6794]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #21
+Description: Randomly Generated Test [x3300]=[x229b]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #22
+Description: Randomly Generated Test [x3300]=[xed92]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #23
+Description: Randomly Generated Test [x3300]=[x3f90]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #24
+Description: Randomly Generated Test [x3300]=[x1e91]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #25
+Description: Corner Case [x3300]=[xffff]
+Weight: 5.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 5.0 = 5.0
+----------------------------------------------------------------
+Test case #26
+Description: Randomly Generated Test [x3300]=[xd38e]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #27
+Description: Randomly Generated Test [x3300]=[x9cf4]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #28
+Description: Randomly Generated Test [x3300]=[xb042]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #29
+Description: Randomly Generated Test [x3300]=[xee1b]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #30
+Description: Randomly Generated Test [x3300]=[xb6c4]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #31
+Description: Randomly Generated Test [x3300]=[x6c83]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #32
+Description: Randomly Generated Test [x3300]=[xdf79]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #33
+Description: Randomly Generated Test [x3300]=[xa2bd]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #34
+Description: Randomly Generated Test [x3300]=[x759f]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #35
+Description: Randomly Generated Test [x3300]=[x6b68]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #36
+Description: Randomly Generated Test [x3300]=[x2e67]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #37
+Description: Randomly Generated Test [x3300]=[xc859]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #38
+Description: Randomly Generated Test [x3300]=[x19dd]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #39
+Description: Randomly Generated Test [x3300]=[xd669]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #40
+Description: Randomly Generated Test [x3300]=[x0a04]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #41
+Description: Randomly Generated Test [x3300]=[xad79]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #42
+Description: Randomly Generated Test [x3300]=[xcd07]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #43
+Description: Randomly Generated Test [x3300]=[xbbf8]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #44
+Description: Randomly Generated Test [x3300]=[xc452]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #45
+Description: Randomly Generated Test [x3300]=[x8c1d]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #46
+Description: Corner Case [x3300]=[x0000]
+Weight: 5.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 5.0 = 5.0
+----------------------------------------------------------------
+Test case #47
+Description: Randomly Generated Test [x3300]=[x8782]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #48
+Description: Randomly Generated Test [x3300]=[x52e8]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #49
+Description: Randomly Generated Test [x3300]=[x8594]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #50
+Description: Randomly Generated Test [x3300]=[x7ec7]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #51
+Description: Corner Case [x3300]=[x01ff]
+Weight: 10.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 10.0 = 10.0
+----------------------------------------------------------------
+Test case #52
+Description: Randomly Generated Test [x3300]=[x35ca]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #53
+Description: Randomly Generated Test [x3300]=[x659d]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #54
+Description: Randomly Generated Test [x3300]=[x3046]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #55
+Description: Randomly Generated Test [x3300]=[xe938]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #56
+Description: Randomly Generated Test [x3300]=[xf762]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #57
+Description: Randomly Generated Test [x3300]=[x2ca8]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #58
+Description: Randomly Generated Test [x3300]=[x8604]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #59
+Description: Randomly Generated Test [x3300]=[x2084]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #60
+Description: Randomly Generated Test [x3300]=[x2fda]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #61
+Description: Randomly Generated Test [x3300]=[xc829]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #62
+Description: Randomly Generated Test [x3300]=[xc700]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #63
+Description: Randomly Generated Test [x3300]=[x83f0]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #64
+Description: Randomly Generated Test [x3300]=[x30be]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #65
+Description: Randomly Generated Test [x3300]=[x493d]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #66
+Description: Randomly Generated Test [x3300]=[xd6dd]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #67
+Description: Randomly Generated Test [x3300]=[xf4d2]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
+Test case #68
+Description: Randomly Generated Test [x3300]=[x6016]
+Weight: 1.0
+Result: 1 passed and 0 failed
+Score: (1/1) * 1.0 = 1.0
+----------------------------------------------------------------
