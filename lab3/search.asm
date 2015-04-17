@@ -27,7 +27,9 @@ AGAIN1		GETC
 			STR R0, R2, #0
 			ADD R2, R2, #1
 			BRnzp AGAIN1
-DONE1		LD R7, SAVER7
+DONE1		AND R1, R1, #0
+			STR R1, R2, #0
+			LD R7, SAVER7
 			RET
 ;--------------------------------------------------------------------------------
 SEARCH		AND R6, R6, #0
