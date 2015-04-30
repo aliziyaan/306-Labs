@@ -460,9 +460,44 @@ ENT 	.FILL x000D
 ;	outputs:	none!					;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 GAME_OVER
-    ;
+    
+    	ST R7, SAVER7
+		ST R0, SAVER0
+		ST R1, SAVER1
+		ST R2, SAVER2
+
+		LD R1, WINNER
+		ADD R1, R1, #0
+		BRz T
+
+		ADD R2, R1, #-1
+		BRz W1
+
+		ADD R2, R1, #-2
+		BRz W2
+
+T 		LEA R0, TIE
+		PUTS
+		BR FINALE
+
+W1		LEA R0, P1
+		PUTS
+		BR FINALE
+
+W2		LEA R0, P2
+		PUTS
+		BR FINALE
+
+FINALE	LD R7, SAVER7
+		LD R0, SAVER0
+		LD R1, SAVER1
+		LD R2, SAVER2								
 
 	RET
+
+TIE 	.STRINGZ "Tie Game."
+P1 		.STRINGZ "Player 1 Wins."
+P2 		.STRINGZ "Player 2 Wins."
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;	CHECK_VALID						;
@@ -783,7 +818,22 @@ HOO		LD R7, SAV_R7
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 CHECK_DIAGONALS
 
+		ST R7, MASTER7
+
+		JSR CHECK_D1
+		JSR CHECK_D2
+
+		LD R7, MASTER7
 	RET
+
+MASTER7	.BLKW 1
+SER7 	.BLKW 1
+SER0 	.BLKW 1
+SER1 	.BLKW 1
+SER2 	.BLKW 1
+SER3 	.BLKW 1
+SER5 	.BLKW 1
+SER6 	.BLKW 1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;	CHECK_D1						;
@@ -794,6 +844,73 @@ CHECK_DIAGONALS
 ;				1, otherwise.			;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 CHECK_D1	
+
+		ST R7, SER7
+		ST R0, SER0
+		ST R1, SER1
+		ST R2, SER2
+		ST R3, SER3
+		ST R5, SER5
+		ST R6, SER6
+
+		JSR GIMME_OFFSET_ASCII
+		ADD R3, R2, #0
+		NOT R3, R3
+		ADD R3, R3, #1
+		AND R0, R0, #0
+		AND R7, R7, #0
+		AND R1, R1, #0
+		ADD R0, R0, #1
+
+LAMAR 	ADD R5, R5, #-1
+		BRnz DOWN
+		ADD R6, R6, #-1
+		BRnz DOWN
+
+		JSR GIMME_OFFSET_ASCII
+		ADD R2, R3, R2
+		BRnp DOWN
+		ADD R0, R0, #1
+		AND R7, R7, #0
+		ADD R7, R7, #-4
+		ADD R7, R0, R7
+		BRz WIN
+		BR LAMAR
+
+DOWN	LD R5, SER5
+		LD R6, SER6
+
+LOL		ADD R5, R5, #1
+		ADD R7, R5, #-7
+		BRzp LOSE
+		ADD R6, R6, #1
+		ADD R7, R6, #-7
+		BRzp LOSE
+
+		JSR GIMME_OFFSET_ASCII
+		ADD R2, R3, R2
+		BRnp LOSE
+		ADD R0, R0, #1
+		AND R7, R7, #0
+		ADD R7, R7, #-4
+		ADD R7, R0, R7
+		BRz WIN
+		BR LOL
+
+LOSE	AND R4, R4, #0
+		BR HELL
+
+WIN		AND R4, R4, #0
+		ADD R4, R4, #1
+		BR HELL
+
+HELL	LD R7, SER7
+		LD R0, SER0
+		LD R1, SER1
+		LD R2, SER2
+		LD R3, SER3
+		LD R5, SER5
+		LD R6, SER6	
 
 	RET
 
@@ -806,6 +923,73 @@ CHECK_D1
 ;				1, otherwise.			;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 CHECK_D2	
+
+		ST R7, SER7
+		ST R0, SER0
+		ST R1, SER1
+		ST R2, SER2
+		ST R3, SER3
+		ST R5, SER5
+		ST R6, SER6
+
+		JSR GIMME_OFFSET_ASCII
+		ADD R3, R2, #0
+		NOT R3, R3
+		ADD R3, R3, #1
+		AND R0, R0, #0
+		AND R7, R7, #0
+		AND R1, R1, #0
+		ADD R0, R0, #1
+
+KENDRIC ADD R5, R5, #-1
+		BRnz BACK
+		ADD R6, R6, #1
+		ADD R7, R6, #-7
+		BRzp BACK
+
+		JSR GIMME_OFFSET_ASCII
+		ADD R2, R3, R2
+		BRnp BACK
+		ADD R0, R0, #1
+		AND R7, R7, #0
+		ADD R7, R7, #-4
+		ADD R7, R0, R7
+		BRz WINTER
+		BR KENDRIC
+
+BACK	LD R5, SER5
+		LD R6, SER6
+
+ROFL	ADD R5, R5, #1
+		ADD R7, R5, #-7
+		BRzp SOLDIER
+		ADD R6, R6, #-1
+		BRnz SOLDIER
+
+		JSR GIMME_OFFSET_ASCII
+		ADD R2, R3, R2
+		BRnp SOLDIER
+		ADD R0, R0, #1
+		AND R7, R7, #0
+		ADD R7, R7, #-4
+		ADD R7, R0, R7
+		BRz WINTER
+		BR ROFL
+
+SOLDIER	AND R4, R4, #0
+		BR CLAP
+
+WINTER	AND R4, R4, #0
+		ADD R4, R4, #1
+		BR CLAP
+
+CLAP	LD R7, SER7
+		LD R0, SER0
+		LD R1, SER1
+		LD R2, SER2
+		LD R3, SER3
+		LD R5, SER5
+		LD R6, SER6	
 
 	RET
 
